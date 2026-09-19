@@ -1,0 +1,10 @@
+{
+  "dims": {
+    "columns": 3,
+    "screen_lines": 1
+  },
+  "steps": [
+    "\u001b[31mA",
+    "\u001b[?1049h\u001b[31mB"
+  ]
+}

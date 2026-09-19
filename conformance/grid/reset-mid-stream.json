@@ -1,0 +1,11 @@
+{
+  "dims": {
+    "columns": 4,
+    "screen_lines": 1
+  },
+  "steps": [
+    "hi",
+    "!",
+    "\u001b[?1049hZ"
+  ]
+}

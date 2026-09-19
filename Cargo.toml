@@ -1,0 +1,20 @@
+[package]
+name = "gridwire"
+version = "0.1.0"
+edition = "2021"
+description = "Neutral terminal-grid + backend wire contract: resolved, owned, mergeable grid deltas plus the control-in wire and the producer projection seam."
+publish = false
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/kingb/gridwire"
+
+# Dependency rule: this crate depends on nothing above it.
+# serde + bitflags only keeps it below every consumer and freely shareable.
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+bitflags = { version = "2", features = ["serde"] }
+
+[dev-dependencies]
+serde_json = "1"
+# Property testing for the merge coalescing law (dev-only; not in the public
+# surface the serde+bitflags dependency rule governs).
+proptest = "1"

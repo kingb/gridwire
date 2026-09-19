@@ -1,0 +1,7 @@
+{
+  "dims": {
+    "columns": 5,
+    "screen_lines": 1
+  },
+  "feed": "\u001b[?1049habc"
+}

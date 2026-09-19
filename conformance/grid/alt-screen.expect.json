@@ -1,0 +1,93 @@
+{
+  "epoch": 1,
+  "dims": {
+    "columns": 5,
+    "screen_lines": 1
+  },
+  "reset": true,
+  "cells": [
+    {
+      "row": 0,
+      "col": 0,
+      "cell": {
+        "content": {
+          "Char": "a"
+        },
+        "style": 0,
+        "wrapped": false,
+        "wide": false
+      }
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "cell": {
+        "content": {
+          "Char": "b"
+        },
+        "style": 0,
+        "wrapped": false,
+        "wide": false
+      }
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "cell": {
+        "content": {
+          "Char": "c"
+        },
+        "style": 0,
+        "wrapped": false,
+        "wide": false
+      }
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "cell": {
+        "content": "Empty",
+        "style": 0,
+        "wrapped": false,
+        "wide": false
+      }
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "cell": {
+        "content": "Empty",
+        "style": 0,
+        "wrapped": false,
+        "wide": false
+      }
+    }
+  ],
+  "new_styles": [
+    [
+      0,
+      {
+        "fg": {
+          "r": 204,
+          "g": 204,
+          "b": 204
+        },
+        "bg": {
+          "r": 16,
+          "g": 16,
+          "b": 16
+        },
+        "attrs": ""
+      }
+    ]
+  ],
+  "cursor": {
+    "row": 0,
+    "col": 3,
+    "shape": "Block",
+    "visible": true
+  },
+  "alt_screen": true,
+  "display_offset": 0,
+  "history_len": 0
+}
